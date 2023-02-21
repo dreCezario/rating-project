@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 1440px;
+    color: #fff;
+    background-color: hsl(216, 12%, 8%);
+    font-family: 'Overpass';
+}
+
+button {
+    cursor: pointer;
+}
+
+.container {
+    max-width: 410px;
+    height: 400px;
+    margin: 3rem auto;
+    background-color: hsl(213, 19%, 18%);
+    background-position: center;
+    margin: 5rem auto;
+    padding: 1.5rem;
+    border-radius: 15px;
+    justify-content: center;
+    align-items: center;
+}
+
+.container h2 {
+    font-size: 2rem;
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+
+.container p {
+    font-size: 15px;
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+
+.star-button {
+    border: none;
+    background-color: hsl(213, 19%, 25%);
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.star-button i {
+    color: hsl(25, 97%, 53%)
+}
+
+.buttons {
+    text-align: center;
+    justify-content: space-between;
+    display: flex;
+}
+
+.rate {
+    border: none;
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    background-color: hsl(213, 18%, 24%);
+    color: white;
+}
+
+.rate:hover {
+    background-color:  rgb(109, 105, 105);
+    color: white;
+}
+
+.rate:after {
+    background-color:hsl(25, 97%, 53%);
+    color: white;
+}
+
+.click {
+    background-color:hsl(25, 97%, 53%);
+    color: white;
+}
+
+.final-div {
+    text-align: center;
+}
+
+.final-button {
+    border: none;
+    border-radius: 30px;
+    font-size: 1rem;
+    margin-top: 10px;
+    text-align: center;
+    padding: 15px 100px;
+    background-color: hsl(25, 97%, 53%);
+    color: white;
+}
+
+.final-button:hover {
+    background-color: #fff;
+    color: hsl(25, 97%, 53%);
+}
+
+#message {
+    border: none;
+    border-radius: 30px;
+    font-size: 1rem;
+    text-align: center;
+    height: 20px;
+    background-color: rgb(109, 105, 105);
+}
+
+#message p {
+    text-align: center;
+    color: hsl(25, 97%, 53%);
+}
+
+.center {
+    text-align: center;
+}
