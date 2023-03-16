@@ -56,26 +56,24 @@ button {
 
 .buttons {
     text-align: center;
+    align-items: center;
     justify-content: space-between;
     display: flex;
 }
 
 .rate {
+    text-align: center;
     border: none;
     border-radius: 50%;
-    width: 45px;
-    height: 45px;
+    width: 50px;
+    height: 50px;
     background-color: hsl(213, 18%, 24%);
     color: white;
+    cursor: pointer;
 }
 
 .rate:hover {
     background-color:  rgb(109, 105, 105);
-    color: white;
-}
-
-.rate:after {
-    background-color:hsl(25, 97%, 53%);
     color: white;
 }
 
